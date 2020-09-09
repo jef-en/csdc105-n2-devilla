@@ -102,8 +102,8 @@ while True:
 			exit()
 		elif second_argument.lower() == 'mgcq':
 			print ('Work in all government offices under alternative work arrangementsWork in all government offices under alternative work arrangements')
-	
 			exit()
+	
 	else:
 		print ('Invalid input')
 		exit()
@@ -111,3 +111,4 @@ while True:
 	break
 
 print ('Invalid input')
+exit()
