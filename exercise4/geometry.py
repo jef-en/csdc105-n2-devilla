@@ -19,7 +19,7 @@ def perimeter (*side_lengths):                                                  
     return total_sum                                                                                     # return statement for returning the total sum divided by 2 
 
 def triangle_heronsarea (a, b, c):                                                                       # function for computing the area
-    semi_perimeter = perimeter(a, b, c) /                                                                # call the function perimeter inside 
+    semi_perimeter = perimeter(a, b, c) / 2                                                              # call the function perimeter inside 
     area = (semi_perimeter * (semi_perimeter - a) * (semi_perimeter - b) * (semi_perimeter - c)) ** 0.5  # formula for computing the area
     return area                                                                                          # return statement 
     
